@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.banner{
+    background: linear-gradient(to top, #111111, #777777, #111111);
+    overflow: hidden;
+    height: 715px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.b-decp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-name{
+    color: #E6533C;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-bar ul li {
+    flex: 1;
+}
+
+.menu-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
